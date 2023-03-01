@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Unbounded:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/1_favicon.png" type="image/x-icon" />
+    <title>Contactame</title>
+  </head>
+  <body class="body__padding">
+    <header>
+      <div class="container-fuid fixed-top nav__style">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg menu">
+          <div class="container">
+            <a class="navbar-brand" href="../index.html"
+              ><img src="../img/1__logo_einar.png" alt="LogoEinar"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item px-1">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item px-1">
+                  <a class="nav-link text-white" href="acerca-de-mi.html"
+                    >Acerca de mi</a
+                  >
+                </li>
+                <li class="nav-item px-1">
+                  <a class="nav-link text-white" href="proyectos.html"
+                    >Proyectos</a
+                  >
+                </li>
+                <li class="nav-item px-1">
+                  <a class="nav-link text-white" href="contactame.html"
+                    >Contactame</a
+                  >
+                </li>
+                <li class="nav-item px-1">
+                  <a class="nav-link text-white" href="testimonios.html"
+                    >Testimonios</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container text-center nav__style">
+          <img
+            class="img-fluid"
+            src="../img/1_developer_designer.png"
+            alt="Developer - Designer"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Intro Section-->
+      <section class="container py-5 mt-4">
+        <div class="p-3">
+          <p
+            class="intro__section--presentacion text-center fw-bold fs-4 text mt-4"
+          >
+            ¡Hablemos!
+          </p>
+        </div>
+        <!-- Form -->
+        <form class="align-items-center" action="">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <label for="formGroupExampleInput" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Nombre"
+              />
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Apellido"
+              />
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Correo electrónico</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Correo electrónico"
+              />
+            </div>
+          </div>
+          <div>
+            <p class="fw-bold p-2 text-center">¿Ya trabajaste conmigo?</p>
+            <div class="row d-flex justify-content-center">
+              <div class="form-check col-md-3 ms-5">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="si"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sí, ¡claro! 😊
+                </label>
+              </div>
+              <div class="form-check col-md-3 ms-5">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="no"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  No, es la primera vez 🤔
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="fw-bold p-2 text-center">¿Qué te interesa?</p>
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Selecciona la opción de tu interés</option>
+                  <option value="1">Diseño Gráfico</option>
+                  <option value="2">Desarrollo Web</option>
+                  <option value="3">Ambas Opciones</option>
+                </select>
+              </div>
+              <div class="col-md-8">
+                <div class="input-group my-3">
+                  <span class="input-group-text">Escribe tu mensaje:</span>
+                  <textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container d-flex justify-content-center"></div>
+          <div class="d-flex justify-content-center">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                Suscribirme al newsletter</label
+              >
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-1 py-3 mx-3">
+              <button type="submit" class="btn btn-outline-success">
+                Enviar
+              </button>
+            </div>
+            <div class="col-md-1 py-3 mx-3">
+              <button type="reset" class="btn btn-outline-secondary">
+                Borrar
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- Map -->
+      <section class="container-fuid py-5 text-center dark__section">
+        <div class="container">
+          <p class="fs-5 text fw-bold pb-3">Dirección oficina</p>
+          <div class="iframe__map">
+            <iframe
+              class="img-fluid rounded-4 ratio ratio-1x1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.3338291284545!2d-60.709264485420206!3d-31.65208541485807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9a66233b129%3A0x420ddb26cd268e3e!2s25%20de%20Mayo%202059%2C%20S3000%20FTL%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1677022635369!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!--Footer-->
+      <footer>
+        <div class="container">
+          <!--Footer Título-->
+          <h2 class="m-5 text-center">ARE YOU READY?</h2>
+          <p class="text-center fw-bold">CONTACTAME</p>
+          <!--Footer RRSS-->
+          <div class="d-flex justify-content-center mb-2">
+            <a href="https://www.instagram.com/">
+              <img class="mx-3" src="../img/1_ig.png" alt="Logo Instagram" />
+            </a>
+            <a href="https://www.behance.net/">
+              <img class="mx-3" src="../img/1_be.png" alt="Logo Behance" />
+            </a>
+            <a href="https://www.linkedin.com/">
+              <img class="mx-3" src="../img/1_li.png" alt="Logo LinkedIn" />
+            </a>
+          </div>
+        </div>
+        <!--Footer Bottom-->
+        <section class="container-fuid dark__section py-3 mt-5">
+          <p class="fs-6 text text-center fw-bold m-3">© Design by Einar B.</p>
+        </section>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
