@@ -1,0 +1,17 @@
+body {
+  font-family: $principal-font;
+}
+
+/* Correccion body padding */
+
+@media (min-width: 768px) {
+  .body__padding {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body__padding {
+    padding-top: 20px;
+  }
+}

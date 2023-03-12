@@ -18,13 +18,16 @@ body {
   color: white;
 }
 
-.intro__section--presentacion {
-  color: #0d3728;
+#burgermenu {
+  color: white;
 }
 
-h2 {
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.intro__section--presentacion {
   color: #0d3728;
-  font-family: Unbounded;
 }
 
 .section__title {
@@ -36,17 +39,14 @@ h2 {
   color: white;
 }
 
+h2 {
+  color: #0d3728;
+  font-family: Unbounded;
+}
+
 .iframe__map {
   margin: 1rem 0rem;
   padding-bottom: 1rem;
-}
-
-#burgermenu {
-  color: white;
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,52 +1,6 @@
-body {
-  font-family: Montserrat;
-}
-
-/* Correccion body padding */
-
-@media (min-width: 768px) {
-  .body__padding {
-    padding-top: 90px;
-  }
-}
-
-@media (max-width: 768px) {
-  .body__padding {
-    padding-top: 20px;
-  }
-}
-
-.nav__style {
-  background-color: #0d3728;
-  color: white;
-}
-
-.intro__section--presentacion {
-  color: #0d3728;
-}
-
-h2 {
-  color: #0d3728;
-  font-family: Unbounded;
-}
-
-.section__title {
-  color: #0d3728;
-}
-
-.dark__section {
-  background-color: black;
-  color: white;
-}
-
-.iframe__map {
-  margin: 1rem 0rem;
-  padding-bottom: 1rem;
-}
-
-#burgermenu {
-  color: white;
-}
-.custom-toggler.navbar-toggler {
-  border-color: white;
-}
+@import "variables";
+@import "body";
+@import "nav";
+@import "section";
+@import "footer";
+@import "iframe";
