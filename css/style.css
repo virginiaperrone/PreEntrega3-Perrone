@@ -73,4 +73,19 @@ a:hover {
   background-image: #0d3728;
 }
 
+h1 {
+  animation: aparecer 2s ease;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
