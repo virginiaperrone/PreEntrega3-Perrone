@@ -49,4 +49,28 @@ h2 {
   padding-bottom: 1rem;
 }
 
+a:hover {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.img-animation {
+  transition: transform 2s;
+}
+.img-animation:hover {
+  transform: scale(105%);
+}
+
+.button {
+  transition: all 1s;
+  cursor: pointer;
+}
+.button:hover {
+  color: white;
+  font-weight: bold;
+}
+.button .button--enviar:hover {
+  background-image: #0d3728;
+}
+
 /*# sourceMappingURL=style.css.map */
