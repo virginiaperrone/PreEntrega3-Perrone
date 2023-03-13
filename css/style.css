@@ -39,6 +39,24 @@ body {
   color: white;
 }
 
+.section__gallery {
+  display: flex;
+  justify-content: center;
+  max-height: 300px;
+}
+.section__gallery img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.section__gallery img:hover {
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
 h2 {
   color: #0d3728;
   font-family: Unbounded;
@@ -51,7 +69,6 @@ h2 {
 
 a:hover {
   font-weight: bolder;
-  font-size: large;
 }
 
 .img-animation {

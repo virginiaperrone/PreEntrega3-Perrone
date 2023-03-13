@@ -10,3 +10,21 @@
   background-color: $section-color;
   color: white;
 }
+
+.section__gallery {
+  display: flex;
+  justify-content: center;
+  max-height: 300px;
+  img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    &:hover {
+      width: 300px;
+      opacity: 1;
+      filter: contrast(120%);
+    }
+  }
+}
