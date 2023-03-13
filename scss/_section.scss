@@ -1,20 +1,28 @@
+/*Intro section*/
+
 .intro__section--presentacion {
   color: $primary-color;
 }
 
+/*Title section*/
+
 .section__title {
   color: $primary-color;
 }
+
+/*Dark section*/
 
 .dark__section {
   background-color: $section-color;
   color: white;
 }
 
+/*Gallery section*/
+
 .section__gallery {
   display: flex;
   justify-content: center;
-  max-height: 300px;
+  max-height: 400px;
   img {
     width: 0px;
     flex-grow: 1;

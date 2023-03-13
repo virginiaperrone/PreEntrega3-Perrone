@@ -1,6 +1,9 @@
+/*Links*/
 a:hover {
   font-weight: bolder;
 }
+
+/*Imagenes*/
 
 .img-animation {
   transition: transform 2s;
@@ -8,6 +11,8 @@ a:hover {
     transform: scale(105%);
   }
 }
+
+/*Botones*/
 
 .button {
   transition: all 1s;
@@ -20,6 +25,8 @@ a:hover {
     background-image: $primary-color;
   }
 }
+
+/*H1*/
 
 h1 {
   animation: aparecer 2s ease;
